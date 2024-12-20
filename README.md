@@ -28,11 +28,11 @@ my-java-project
 ### Installation
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone github.com/yordanos-habtamu/JavaSoap.git
    ```
 2. Navigate to the project directory:
    ```
-   cd my-java-project
+   cd JavSoap
    ```
 3. Build the project using Maven:
    ```
@@ -45,9 +45,13 @@ my-java-project
 ### Running the Application
 To run the application, execute the following command:
 ```
-mvn spring-boot:run
+mvn exec:java -Dexec.mainClass="com.example.App"
 ```
-
+### Running the Soap Client
+To run the Soap Client, execute the following command:
+```
+mvn exec:java -Dexec.mainClass="com.example.soap.SoapClient"
+```
 ### Testing
 To run the unit tests, use:
 ```
@@ -55,11 +59,13 @@ mvn test
 ```
 
 ## Usage
-- Access the RESTful service at `http://localhost:8080/api`.
-- For SOAP services, refer to the WSDL located at `http://localhost:8080/ws`.
+
+- For SOAP services, refer to the WSDL located at `http://localhost:7000/ws`.
 
 ## Screenshots
 (Include screenshots demonstrating successful deployment and testing of the endpoints here.)
+![image](https://github.com/user-attachments/assets/429f996a-f638-4a47-912a-c4ff4eeaaebb)
+
 
 ## Contributing
 Feel free to submit issues or pull requests for improvements or bug fixes.
