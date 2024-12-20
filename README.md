@@ -1,7 +1,7 @@
-# My Java Project
+# Java Soap Api Demonstration
 
 ## Overview
-This project is a Java-based web service that supports both SOAP and RESTful services. It is built using Maven and includes unit tests to ensure functionality.
+This project is a Java-based web service that utilizes Soap.
 
 ## Project Structure
 ```
